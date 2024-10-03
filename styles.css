@@ -1,8 +1,10 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    gap: 16px;
 }
 
 .container {
@@ -17,8 +19,7 @@ body {
 
 .containerDivs {
     display: flex;
-    flex: 1 0 6.25%;
-    height: 6.25%;
+
     border: 1px solid black;
     box-sizing: border-box;
 }
